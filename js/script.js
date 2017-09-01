@@ -17,5 +17,8 @@ $('#player1').addClass('active');
 
 //do something when mouseover happens
 $('.boxes').mouseover(function() {
-	console.log('mouseover');
+	console.log('moused');
+	const imageURLO = 'img/o.svg';
+	const imageURLX = 'img/x.svg';
+	$('.boxes').css('background-image', 'url(' + imageURLO + ')');
 });
