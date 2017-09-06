@@ -111,7 +111,7 @@
 			$('.board').hide();
 			$('body').append(winnerHTML);
 			$('.screen').addClass('screen-win-tie');
-			$('.message').text(playerName + ' Wins!');
+			$('.message').text(' Tie Game!');
 		}
 	}
 	//check for vertical win
